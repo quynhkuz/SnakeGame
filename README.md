@@ -1,44 +1,53 @@
 # SNAKE GAME
 
-This repository is the final project (Java GUI) of the Object Oriented Programming Class, Informatics Engineering, Universitas Padjadjaran.
+This repository is the final project (Java UI) for the Object-Oriented Programming (OOP) course, Faculty of Information Technology, University of Transport and Communications (UTC).
 
-[Challenge Guide](challenge-guideline.md)
+Challenge Instructions
 
-The Snake game is a game where the player controls a line that grows in length, with the line itself being the main obstacle.
+Snake is a game where the player controls a growing line, with the line itself serving as the primary obstacle.
 
 ## Credit
 
-| NPM | Name |
-| ------------ | -------------------------- |
-| 14080190009 | Farhan Gunadi |
-| 14080190025 | Aghniya Abdurrahman Mannan |
-| 14080190037 | Bagas Adi Firdaus |
+|    MSSV    |        Name        |
+|:----------:|:------------------:|
+|  V5250485  |   Bùi Đức Quỳnh    |
+|  V5250512  |  Nguyễn Quang Vũ   |
+|  V5250489  |    Ngô Văn Tân     |
+|  V5250498  |  Lều Quang Tuyên   |
+|  V5250496  |  Phùng Quang Tùng  |
 
 ## Change log
 
-- **[Sprint Planning](changelog/sprint-planning.md) - (18 November 2020)**
+Change Log
+Sprint Planning - (March 16, 2026)
+Allocated tasks and defined objectives for the first week.
 
-  - Divide tasks for the first week
-  - Create Sprint 1
+Set up the development environment and project architecture for Sprint 1.
 
-- **[Sprint 1](changelog/sprint-1.md) - (18 November 2020 - 24 November 2020)**
+Sprint 1 - (March 16, 2026 - March 30, 2026)
+Developed the UI framework for the Game Board.
 
-  - Making board games
-  - Create a snake object and place it on the board
-  - Create apple objects and place them on the board randomly
-  - Make movement of snake object
+Defined and initialized the Snake object, including its starting position.
 
-- **[Sprint 2](changelog/sprint-2.md) - (25 November 2020 - 02 December 2020)**
+Implemented the spawning logic for the Apple object at random coordinates.
 
-  - Create a scoring system
-  - Make game ending condition
-  - Create application start and end conditions
+Programmed basic movement logic using navigation keys.
 
-- **[Sprint 3](changelog/sprint-3.md) - (03 December 2020 - 09 December 2020)**
+Sprint 2 - (March 31, 2026 - April 14, 2026)
+Developed the scoring system and real-time score display.
 
-  - Create application start and end conditions
-  - Created an additional condition where the snake's movement is accelerated if the user presses the shift key
-  - Cleaned up the code and complements README.md
+Implemented collision detection and Game Over conditions.
+
+Finalized the Main Menu interface: Start, Pause, and Exit functionalities.
+
+Sprint 3 - (April 15, 2026 - May 01, 2026)
+Optimized the Game Loop to ensure smooth performance and high frame rates.
+
+Added advanced interaction features: Movement acceleration when holding the Shift key.
+
+Performed Code Refactoring in compliance with OOP (Object-Oriented Programming) standards.
+
+Finalized the user guide and project documentation in README.md.
 
 ## Running Application
 
@@ -144,7 +153,7 @@ java src/SnakeGame.java
 
 ## UML
 
-![UML](/images/UML_Project_Snake.png)
+![UML](/images/UML_UTC.png)
 
 ## Leading Assumptions and App Design Details
 

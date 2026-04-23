@@ -12,8 +12,9 @@ public class SnakeGame {
         obj.setBounds(10, 10, 910, 750);
         obj.setBackground(Color.BLUE);
         obj.setResizable(false);
-        obj.setVisible(true);
+
         obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         obj.add(gameplay);
+        obj.setVisible(true);
     }
 }
