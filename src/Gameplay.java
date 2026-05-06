@@ -74,6 +74,8 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
             }
         }
 
+        System.out.println("Invalidate");
+
         // Vẽ khung tiêu đề
         g.setColor(Color.WHITE);
         g.drawRect(24, 10, 852, 55);
@@ -125,13 +127,13 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
         g.drawString("Boost", 770, 640);
 
         // Vẽ đầu rắn
-        snakeHead = new ImageIcon("images/snakeHead4.png");
+        snakeHead = new ImageIcon("images/snake_top.png");
         snakeHead.paintIcon(this, g, snake.snakexLength[0], snake.snakeyLength[0]);
 
         // Vẽ toàn bộ thân rắn
         for (int i = 0; i < snake.lengthOfSnake; i++) {
             if (i == 0 && (snake.right || snake.left || snake.up || snake.down)) {
-                snakeHead = new ImageIcon("images/snakeHead4.png");
+                snakeHead = new ImageIcon("images/snake_top.png");
                 snakeHead.paintIcon(this, g, snake.snakexLength[i], snake.snakeyLength[i]);
             }
             if (i != 0) {
