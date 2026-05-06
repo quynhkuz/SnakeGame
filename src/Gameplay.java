@@ -272,16 +272,16 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
                 break;
 
             // Điều khiển hướng di chuyển
-            case KeyEvent.VK_RIGHT:
+            case KeyEvent.VK_RIGHT,KeyEvent.VK_D:
                 snake.moveRight();
                 break;
-            case KeyEvent.VK_LEFT:
+            case KeyEvent.VK_LEFT,KeyEvent.VK_A:
                 snake.moveLeft();
                 break;
-            case KeyEvent.VK_UP:
+            case KeyEvent.VK_UP,KeyEvent.VK_W:
                 snake.moveUp();
                 break;
-            case KeyEvent.VK_DOWN:
+            case KeyEvent.VK_DOWN,KeyEvent.VK_S:
                 snake.moveDown();
                 break;
         }
